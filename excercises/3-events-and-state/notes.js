@@ -1,54 +1,54 @@
 var React = require('react');
 
-//var alertStuff = () => {
-  //alert('STUFF!');
-//};
+var alertStuff = () => {
+  alert('STUFF!');
+};
 
-//var App = React.createClass({
-  //render () {
-    //return (
-      //<div>
-        //<h1>Events and State</h1>
-        //<button onClick={alertStuff}>Alert!</button>
-      //</div>
-    //);
-  //}
-//});
+var App = React.createClass({
+  render () {
+    return (
+      <div>
+        <h1>Events and State</h1>
+        <button onClick={alertStuff}>Alert!</button>
+      </div>
+    );
+  }
+});
 
 ////////////////////////////////////////////////////////////////////////////////
 // usually put it on the component
-//var App = React.createClass({
-  //alertStuff () {
-    //alert('more stuff');
-  //},
+var App = React.createClass({
+  alertStuff () {
+    alert('more stuff');
+  },
 
-  //render () {
-    //return (
-      //<div>
-        //<h1>Events and State</h1>
-        //<button onClick={this.alertStuff}>Alert!</button>
-      //</div>
-    //);
-  //}
-//});
+  render () {
+    return (
+      <div>
+        <h1>Events and State</h1>
+        <button onClick={this.alertStuff}>Alert!</button>
+      </div>
+    );
+  }
+});
 
 ////////////////////////////////////////////////////////////////////////////////
 // can bind args
-//var App = React.createClass({
-  //alertStuff (msg) {
-    //alert(msg);
-  //},
+var App = React.createClass({
+  alertStuff (msg) {
+    alert(msg);
+  },
 
-  //render () {
-    //return (
-      //<div>
-        //<h1>Events and State</h1>
-        //<button onClick={this.alertStuff.bind(this, 'stuff!')}>Alert!</button>
-        //<button onClick={this.alertStuff.bind(this, 'other stuff!')}>Other Alert!</button>
-      //</div>
-    //);
-  //}
-//});
+  render () {
+    return (
+      <div>
+        <h1>Events and State</h1>
+        <button onClick={this.alertStuff.bind(this, 'stuff!')}>Alert!</button>
+        <button onClick={this.alertStuff.bind(this, 'other stuff!')}>Other Alert!</button>
+      </div>
+    );
+  }
+});
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -121,7 +121,5 @@ var App = React.createClass({
     );
   }
 });
-
-
 
 React.render(<App/>, document.body);
