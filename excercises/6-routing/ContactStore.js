@@ -1,5 +1,5 @@
 //var API = 'http://localhost:3000/contacts';
-var API = 'http://addressbook-api.herokuapp.com';
+var API = 'http://addressbook-api.herokuapp.com/contacts';
 
 var _contacts = {};
 var _changeListeners = [];
