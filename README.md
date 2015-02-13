@@ -7,7 +7,7 @@ You will need
 git clone https://github.com/FrontendMasters/2015-02-13-React.git
 cd 2015-02-13-React
 npm install
-npm run
+npm start
 ```
 
 Then visit http://localhost:8080.
