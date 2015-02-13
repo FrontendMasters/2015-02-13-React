@@ -1,0 +1,28 @@
+{
+  "name": "frontendmasters",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --inline --no-info --content-base excercises"
+  },
+  "author": "Ryan Florence <rpflorence@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "MD5": "1.2.1",
+    "bluebird": "2.9.2",
+    "flux": "2.0.1",
+    "jquery": "2.1.3",
+    "jquery-ui": "1.10.5",
+    "jsx-loader": "0.12.2",
+    "react": "0.12.2",
+    "react-router": "0.11.6",
+    "sort-by": "1.1.0",
+    "webpack": "1.4.15",
+    "webpack-dev-server": "1.7.0"
+  },
+  "devDependencies": {
+    "6to5-core": "3.6.0",
+    "6to5-loader": "3.0.0",
+    "expect": "1.6.0"
+  }
+}
