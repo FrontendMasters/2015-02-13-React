@@ -1,7 +1,6 @@
 var assert = require('../assert');
 
 exports.run = () => {
-  if (!location.search.match(/test/)) return;
   var html = document.body.innerHTML;
   assert(!!html.match(/burrito/), 'found burrito');
   assert(!!html.match(/tacos/), 'found tacos');

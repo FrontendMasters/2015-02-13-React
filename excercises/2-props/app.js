@@ -1,11 +1,12 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Excercise:
 //
+// http://facebook.github.io/react/docs/reusable-components.html#prop-validation
+//
 // - Don't access `USERS` directly in the app, use a prop
 // - Validate Gravatar's `size` property, allow it to be a
 //   a number, or a string that can be converted to a number,
 //   ie: `size="asdf"` should warn
-//   (TODO: react propTypes docs)
 // - in emailType, what if the prop name isn't email? what if we wanted
 //   the prop to be "userEmail" or "loginId"? Switch the Gravatar
 //   prop name from "email" to "loginId", send a bad value, and then
