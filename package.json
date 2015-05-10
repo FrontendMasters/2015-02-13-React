@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack-dev-server --inline --no-info --content-base excercises"
+    "start": "webpack-dev-server --inline --no-info --content-base exercises"
   },
   "author": "Ryan Florence <rpflorence@gmail.com>",
   "license": "ISC",
