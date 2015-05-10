@@ -12,8 +12,8 @@ npm start
 
 Then visit http://localhost:8080.
 
-This runs the webpack dev server, any changes you make to javascript
-files in `excercises` will cause the browser to reload live.
+This runs the webpack dev server; any changes you make to JavaScript
+files in `exercises` will cause the browser to reload live.
 
 Links mentioned in the workshop
 -------------------------------
@@ -21,5 +21,3 @@ Links mentioned in the workshop
 https://github.com/ryanflorence/react-training/blob/gh-pages/lessons/05-wrapping-dom-libs.md
 
 http://react-router-mega-demo.herokuapp.com/
-
-
