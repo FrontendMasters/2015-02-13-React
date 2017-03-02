@@ -17,9 +17,22 @@ var emailType = (props, propName, componentName) => {
   );
 };
 
+function validateSize(inputValue) {
+  if (Number.isInteger(inputValue)) {
+    return true;
+  }
+  
+  if (typeof inputValue === 'string') {
+    let number = parseInt(inputValue);
+    return ((number + "") === inputValue);
+  }
+  
+  return false;
+}
+
 var sizeType = (props, propName, componentName) => {
   warning(
-    !isNaN(parseInt(props[propName])),
+    validateSize(props.size),
     `Invalid prop "${propName}", can't convert "${props[propName]}" to number. Check the render method of "${componentName}".`
   );
 };
